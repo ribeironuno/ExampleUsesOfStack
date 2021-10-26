@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestDelimiterCheck" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-10-26T10:17:14" hostname="LAPTOP-6BL60HFP" time="0.076">
+  <properties/>
+  <testcase name="Test balanced expressions -&gt; on Path parameter" classname="TestDelimiterCheck" time="0.05"/>
+  <testcase name="Test balanced expressions -&gt; on String parameter" classname="TestDelimiterCheck" time="0.001"/>
+  <testcase name="Test exceptions throws on expressions -&gt; on String parameter" classname="TestDelimiterCheck" time="0.005"/>
+  <testcase name="Test unbalanced on expressions -&gt; on Path parameter" classname="TestDelimiterCheck" time="0.009"/>
+  <testcase name="Test unbalanced on expressions -&gt; on String parameter" classname="TestDelimiterCheck" time="0.002"/>
+  <testcase name="Test exceptions throws on expressions -&gt; on Path parameter" classname="TestDelimiterCheck" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
