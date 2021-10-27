@@ -68,9 +68,9 @@ public class PostFixCalculator {
     public double calculate(String exp) throws IllegalArgumentException {
         if (exp == null)
             throw new IllegalArgumentException("Null exp");
-
+        //String[] arr = exp.split(" "); -> Another away of do it. After get the array of parts than iterate over than.
         for (int i = 0, posLastSpace = 0, size = exp.length(); i < size; i++) {
-
+        
             if (exp.charAt(i) == ' ') {
                 String sub = exp.substring(posLastSpace, i);
                 if (sub.length() == 1) {
