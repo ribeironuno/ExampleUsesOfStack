@@ -93,6 +93,10 @@ public class PostFixCalculator {
                 posLastSpace = i + 1;
             }
         }
-        return stack.peek();
+        if (stack.isEmpty()) {
+            throw new InvalidParameterException("Invalid string");
+        } else {
+            return stack.peek();
+        }
     }
 }
